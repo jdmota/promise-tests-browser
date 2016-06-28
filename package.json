@@ -1,6 +1,6 @@
 {
   "name": "promise-tests-browser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildPromiseTests": "browserify ./test.js -o ./promise-tests-browser.js"
@@ -8,6 +8,6 @@
   "author": "João Mota",
   "devDependencies": {
     "browserify": "^13.0.0",
-    "promises-aplus-tests": "2.1.1"
+    "promises-aplus-tests": "2.1.2"
   }
 }
